@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>iBOK | الاستمارة أونلاين</title>
+<style>
+:root{--green:#087b62;--deep:#075b49;--mint:#e8f5f0;--ink:#172b26;--muted:#71817c;--line:#e2eae6;--bg:#f4f7f5;--gold:#e6b94f}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Tahoma,Arial,sans-serif}header{background:linear-gradient(115deg,#064b3d,#08795f);color:white;padding:22px max(5%,calc((100% - 1080px)/2));box-shadow:0 3px 15px #063f3420}.head{max-width:1080px;margin:auto;display:flex;align-items:center;justify-content:space-between}.brand{font-size:30px;font-weight:900;letter-spacing:.3px}.brand span{color:#a8e4ca}.tag{font-size:12px;color:#d4eee4;margin-top:5px}.secure{font-size:12px;border:1px solid #ffffff55;padding:9px 12px;border-radius:30px}.wrap{max-width:940px;margin:32px auto;padding:0 16px}.hero{text-align:center;margin:0 auto 24px}.hero h1{font-size:25px;margin:0 0 9px}.hero p{color:var(--muted);font-size:14px;line-height:1.8;margin:0}.notice{background:#fff8e5;border:1px solid #f1dfaa;color:#72571a;border-radius:12px;padding:13px 16px;font-size:12px;line-height:1.9;margin-bottom:20px}.section{background:white;border:1px solid var(--line);border-radius:16px;padding:24px;margin-bottom:18px;box-shadow:0 8px 26px #173b2e08}.section-head{display:flex;gap:12px;align-items:center;margin-bottom:18px}.step{width:34px;height:34px;border-radius:10px;background:var(--mint);color:var(--green);display:grid;place-items:center;font-weight:bold}.section h2{font-size:18px;margin:0 0 5px}.hint{font-size:12px;color:var(--muted);line-height:1.7}.services{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.service{border:1px solid var(--line);border-radius:13px;padding:16px 10px;text-align:center;cursor:pointer;background:white;transition:.18s;min-height:125px;color:var(--ink);font:inherit}.service:hover,.service.active{border-color:var(--green);background:#f0faf5;box-shadow:0 0 0 2px #087b6215}.ico{width:43px;height:43px;border-radius:13px;background:var(--mint);display:grid;place-items:center;margin:0 auto 10px;color:var(--deep)}.ico svg{width:23px;height:23px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}.service b{font-size:13px;display:block;margin-bottom:5px}.service small{font-size:11px;color:var(--muted);line-height:1.5;display:block}.fields{display:grid;grid-template-columns:1fr 1fr;gap:0 16px}.field.full{grid-column:1/-1}label{display:block;font-size:13px;font-weight:bold;margin:13px 0 7px}input,select,textarea{width:100%;border:1px solid #dce6e1;border-radius:9px;padding:12px 13px;background:#fff;font:inherit;font-size:13px;color:var(--ink);outline:none}input:focus,select:focus,textarea:focus{border-color:var(--green);box-shadow:0 0 0 3px #087b6212}textarea{min-height:95px;resize:vertical}.fake{background:#f7faf8;color:#71817c}.btn{border:0;background:var(--green);color:#fff;border-radius:9px;padding:13px 22px;font:inherit;font-weight:bold;cursor:pointer;margin-top:18px}.btn:hover{background:var(--deep)}.btn:disabled{opacity:.6;cursor:wait}.btn.secondary{background:#edf5f1;color:var(--deep);margin-inline-start:8px}.result{font-size:13px;margin-top:13px;line-height:1.8}.steps{display:flex;gap:8px;margin:0 0 20px}.steps span{height:5px;border-radius:10px;background:#e5eee9;flex:1}.steps span.on{background:var(--green)}.footer{text-align:center;color:#899791;font-size:11px;line-height:1.9;padding:10px 0 28px}.pill{font-size:10px;background:#f1f6f3;color:#557268;border-radius:20px;padding:5px 9px;margin-right:7px}
+@media(max-width:650px){.services{grid-template-columns:repeat(2,1fr)}.fields{grid-template-columns:1fr}.field.full{grid-column:auto}.wrap{margin-top:22px}.section{padding:18px}.hero h1{font-size:21px}.secure{display:none}}
+</style>
+</head>
+<body>
+<header><div class="head"><div><div class="brand">i<span>BOK</span></div><div class="tag">الاستمارة أونلاين Online Form</div></div><div class="secure">◈ Online Services</div></div></header>
+<main class="wrap">
+<div class="hero"><h1>مرحباً بكم في خدمة iBOK عبر الإنترنت</h1><p>الاستمارة أونلاين Online Form</p></div>
+<section class="section"><div class="section-head"><div class="step">1</div><div><h2>الاستمارة أونلاين</h2><div class="hint">اختر نوع المشكلة التي تواجهها</div></div></div>
+<div class="services" id="services">
+<button class="service active" data-service="تحديث البيانات"><span class="ico"><svg viewBox="0 0 24 24"><path d="M20 7v5h-5M4 17v-5h5"/><path d="M5.6 9A7 7 0 0 1 18 6l2 6M4 12l2 6a7 7 0 0 0 12.4-3"/></svg></span><b>تحديث البيانات</b><small>تحديث بيانات الملف التجريبي</small></button>
+<button class="service" data-service="كشف الحساب"><span class="ico"><svg viewBox="0 0 24 24"><path d="M4 19V5M4 19h17"/><path d="m7 15 4-4 3 2 6-7"/></svg></span><b>كشف الحساب</b><small>طلب كشف حساب تجريبي</small></button>
+<button class="service" data-service="رفع السقف"><span class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 10h18M7 15h4"/></svg></span><b>رفع السقف</b><small>محاكاة طلب زيادة الحد</small></button>
+<button class="service" data-service="التحويلات الخاطئة"><span class="ico"><svg viewBox="0 0 24 24"><path d="M4 7h15l-3-3M20 17H5l3 3"/><path d="M9 10v4m6-4v4"/></svg></span><b>التحويلات الخاطئة</b><small>تسجيل بلاغ تجريبي</small></button>
+<button class="service" data-service="العملات الأجنبية"><span class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M8 9h8M8 15h8M12 5v14"/></svg></span><b>خدمات العملات الأجنبية</b><small>تفعيل خدمة افتراضية</small></button>
+<button class="service" data-service="بطاقة فيزا افتراضية"><span class="ico"><svg viewBox="0 0 24 24"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="M3 10h18M7 15h3"/></svg></span><b>بطاقة فيزا افتراضية</b><small>محاكاة طلب بطاقة</small></button>
+<button class="service" data-service="تغيير رقم الهاتف"><span class="ico"><svg viewBox="0 0 24 24"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M10 18h4"/></svg></span><b>تغيير رقم الهاتف</b><small>تحديث وسيلة تواصل تجريبية</small></button>
+<button class="service" data-service="تفعيل أسئلة الأمان"><span class="ico"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="M9.5 9a2.5 2.5 0 1 1 4.5 1.5c-1 1-2 1-2 3m0 3h.01"/></svg></span><b>تفعيل أسئلة الأمان</b><small>إعداد سؤال افتراضي غير سري</small></button>
+</div></section>
+<form id="requestForm">
+<section class="section"><div class="section-head"><div class="step">2</div><div><h2>متابعة الاستمارة أونلاين</h2><div class="hint">أكمل بيانات الطلب</div></div></div>
+<div class="steps"><span class="on"></span><span></span><span></span></div>
+<div class="fields">
+<div class="field"><label for="demoId">رقم مرجعي للطلب</label><input id="demoId" required maxlength="24" placeholder="مثال: REF-1024"></div>
+<div class="field"><label for="fullName">اسم مقدم الطلب</label><input id="fullName" required maxlength="80" placeholder="أدخل الاسم"></div>
+<div class="field"><label for="contact">البريد الإلكتروني للتواصل</label><input id="contact" type="email" required maxlength="100" placeholder="student@example.com"></div>
+<div class="field"><label for="phone">رقم الهاتف للتواصل (اختياري)</label><input id="phone" maxlength="30" placeholder="مثال: 0000000000"></div>
+<div class="field full"><label for="details">تفاصيل الطلب</label><textarea id="details" required maxlength="800" placeholder="اكتب تفاصيل الطلب هنا"></textarea></div>
+</div></section>
+<section class="section"><div class="section-head"><div class="step">3</div><div><h2>مراجعة وإرسال الطلب</h2><div class="hint">سيتم إرسال ملخص الطلب إلى Telegram</div></div></div>
+<label><input id="consent" type="checkbox" required style="width:auto;vertical-align:middle;margin-left:7px"> أوافق على إرسال بيانات الطلب إلى جهة المشروع عبر Telegram.</label>
+<button class="btn" id="submitBtn" type="submit">إتمام وتوثيق الطلب</button><button class="btn secondary" type="reset">مسح الحقول</button><div id="result" class="result" role="status" aria-live="polite"></div>
+</section></form>
+<div class="footer">iBOK — Online Form</div>
+</main>
+<script>
+let selectedService='تحديث البيانات';
+document.querySelectorAll('.service').forEach(button=>button.addEventListener('click',()=>{document.querySelectorAll('.service').forEach(x=>x.classList.remove('active'));button.classList.add('active');selectedService=button.dataset.service;}));
+document.getElementById('requestForm').addEventListener('submit',async e=>{e.preventDefault();const btn=document.getElementById('submitBtn'),out=document.getElementById('result');btn.disabled=true;out.textContent='جارٍ إرسال الطلب إلى Telegram…';const payload={demoId:document.getElementById('demoId').value.trim(),fullName:document.getElementById('fullName').value.trim(),contact:document.getElementById('contact').value.trim(),phone:document.getElementById('phone').value.trim(),service:selectedService,details:document.getElementById('details').value.trim()};try{const r=await fetch('/api/request',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});const data=await r.json();out.textContent=data.message||'تعذر إكمال العملية.';out.style.color=data.ok?'#087b62':'#b33b32';}catch(_){out.textContent='تعذر الاتصال بالخادم. تحقق من تشغيل الموقع.';out.style.color='#b33b32';}finally{btn.disabled=false;}});
+</script>
+</body></html>
